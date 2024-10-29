@@ -7,7 +7,7 @@
 This project is a Rust-based command-line tool for performing basic SQL operations (Create, Read, Load, and Delete) on a SQLite database. It provides a straightforward CLI interface, allowing users to manage tables and data through simple commands. The tool leverages Rust’s `clap` library for command-line argument parsing, `rusqlite` for database interaction, and `csv` for data loading.
 
 ## ✔️ Project Requirements
-- Package a Python script with setuptools or a similar tool. (We opted for Rust, so this is managed with Cargo.)
+- Package a Python script with setuptools or a similar tool. (We opted for Rust)
 - Include communication with an external or internal database (SQLite in this case).
 - Provide functionality and user guidance.
 
