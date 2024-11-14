@@ -54,15 +54,15 @@ To create a new table, use the `-c` flag:
 ```bash
 sqlite -c name_age_table
 ```
-To load data from a CSV file into the table, use the -l flag and specify the table name and file path:
+To load data from a CSV file into the table, use the `-l` flag and specify the table name and file path:
 ```bash
 sqlite -l name_age_table ../data/sample_data.csv
 ```
-To execute a query on the table, use the -q flag:
+To execute a query on the table, use the `-q` flag:
 ```bash
 sqlite -q "SELECT * FROM name_age_table"
 ```
-To delete a table, use the -d flag:
+To delete a table, use the `-d` flag:
 ```bash
 sqlite -d name_age_table
 ```
